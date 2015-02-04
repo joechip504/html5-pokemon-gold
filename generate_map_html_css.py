@@ -14,7 +14,7 @@ if __name__ == '__main__':
         # Let's try to create your Bedroom in Pallet Town
         # 'Ash's Room', 'Pallet Town' width 10, "Viridian City" 18
 
-        current_map = Map(name = "Pallet Town", mapping = town_to_hex,
+        current_map = Map(name = "New Bark Town", mapping = town_to_hex,
                 width = 10)
 
         print(current_map.bank)

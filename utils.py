@@ -11,7 +11,7 @@ class Map(object):
         self.start = int(mapping.get(name)[0], 16)
         self.end   = int(mapping.get(name)[1], 16)
 
-        self.sprite = str(self.bank) +".png"
+        self.sprite = "banks/" + str(self.bank) +".png"
 
         self.blocks = []
 
